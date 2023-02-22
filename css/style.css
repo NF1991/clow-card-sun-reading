@@ -56,17 +56,18 @@ main {
 /* Styling the deck and instruction containers */
 
 .information-display {
-  background: #fcd6da;
-  height: 600px;
+  height: 640px;
+  background-color: #fff0f2;
+  padding: 20px;
 }
 
 .row {
   display: flex;
+  gap: 20px;
 }
 
 .column {
   flex: 50%;
-  height: 400px;
 }
 
 .intructions li {
@@ -86,22 +87,24 @@ main {
 
 .card-display {
   display: flex;
-  height: 600px;
+  height: 640px;
   gap: 10px;
+  padding: 20px;
+  background-color: #fff0f2;
 }
 
 /* Styling the buttons  */
 .draw {
   height: 50px;
   border: none;
-  width: 100px;
+  width: 100%;
   background-color: #f18ca9;
   font-size: 25px;
 }
 
 .reset {
   height: 50px;
-  width: 100px;
+  width: 100%;
   border: none;
   background-color: #f18ca9;
   font-size: 25px;
