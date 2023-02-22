@@ -115,4 +115,9 @@ main {
   .column {
     width: 100%;
   }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
 }
