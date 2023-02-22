@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="container">
+          <div class="display" id="display"></div>
+          <div class="description" id="description"></div>
+        </div>
+        <button class="draw" id="draw">Draw</button>
+      </section>
+      <aside>
+        <div class="containerSecond">
+          <div class="rules">
+            <h1>Sun Reading</h1>
+            <h2>For when you want to know more about your worries etc.</h2>
+            <div class="intructions">
+              <h2>What each drawn cards mean, in order:</h2>
+              <ul>
+                <li>
+                  1. What your personality seems to be perceived as by
+                  surrounding people
+                </li>
+                <li>2. Your actual personality</li>
+                <li>3. Current problem</li>
+                <li>4. The current problem's solution</li>
+                <li>
+                  5. An obstacle that will hinder you while solving the current
+                  problem
+                </li>
+                <li>
+                  6. The key and key person who will/can help when solving the
+                  current problem
+                </li>
+                <li>7. Warning for when solving the current problem</li>
+                <li>8. Your situation after the current problem is solved</li>
+                <li>
+                  9. The matter that you should be careful about in the future
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="drawn-cards">
+            <ul class="card-list" id="cardList"></ul>
+          </div>
+          <button class="reset" id="reset" onclick="reset()">Reset</button>
+        </div>
+      </aside>
+    </main>
+    <!-- Javascript -->
+    <script src="/javascript/script.js"></script>
+  </body>
+</html>
