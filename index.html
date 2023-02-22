@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Clow Card Sun Reading</title>
     <!-- CSS -->
     <link rel="stylesheet" href="/css/style.css" />
     <!-- Font -->
@@ -17,16 +17,17 @@
   </head>
   <body>
     <main>
-      <section>
-        <div class="container">
-          <div class="display" id="display"></div>
-          <div class="description" id="description"></div>
+      <div class="row">
+        <div class="column">
+          <div class="card-display">
+            <div class="display" id="display"></div>
+            <div class="description" id="description"></div>
+          </div>
+          <button class="draw" id="draw">Draw</button>
         </div>
-        <button class="draw" id="draw">Draw</button>
-      </section>
-      <aside>
-        <div class="containerSecond">
-          <div class="rules">
+
+        <div class="column">
+          <div class="information-display">
             <h1>Sun Reading</h1>
             <h2>For when you want to know more about your worries etc.</h2>
             <div class="intructions">
@@ -54,13 +55,13 @@
                 </li>
               </ul>
             </div>
-          </div>
-          <div class="drawn-cards">
-            <ul class="card-list" id="cardList"></ul>
+            <div class="drawn-cards">
+              <ul class="card-list" id="cardList"></ul>
+            </div>
           </div>
           <button class="reset" id="reset" onclick="reset()">Reset</button>
         </div>
-      </aside>
+      </div>
     </main>
     <!-- Javascript -->
     <script src="/javascript/script.js"></script>
